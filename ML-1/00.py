@@ -12,7 +12,7 @@ import warnings
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-# ⭐ ALGORITMOS DE CLASSIFICAÇÃO (CORRIGIDO!)
+#  ALGORITMOS DE CLASSIFICAÇÃO 
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -180,4 +180,5 @@ print("\n PERFORMANCE SOBRE OS DADOS DE VALIDAÇÃO")
 print(df_val.to_string(index=True))
 
 print("\n PERFORMANCE SOBRE OS DADOS DE TESTE")
+
 print(df_test.to_string(index=True))
